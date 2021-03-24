@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+	
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+	font-family:'Flamenco',cursive;
+}	
+
+header{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('c4.jpeg');
+	 background-repeat: no-repeat; 
+  background-size: cover;
+  background-position:center;
+ height:100vh;
+}
+
+.clearfix:after{
+content: ".";
+visibility:hidden;
+display:block;
+height:0px;
+clear:both;
+}
+
+.row{
+	max-width:1180px;
+	margin:0 auto;
+}
+
+.logo{
+	height: 120px;
+	width:auto;
+	float:left;
+	margin-top: 20px;
+}
+
+.main-nav{
+	float: right;
+	margin-top:60px;
+}
+.main-nav li{
+	display:  inline-block;
+	list-style:none;
+	margin-left:40px;
+}
+.main-nav li a{
+padding: 5px 0;
+	color:#fff;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size: 90%;
+	font-weight:100;
+}
+.main-nav li a:hover{
+	border-bottom:2px solid #bf55ec;
+}
+.main-content-header{
+	width: 1180px;
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+h1{
+	color:#ff;
+	font-size: 240%;
+	word-spacing:5px;
+	letter-spacing:3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2;
+}
+
+.btn-full{
+	background-color: transparent;
+	color: #bf55ec;
+	margin-right: 15px;
+	border: 1px solid #bf55ec;
+	font-family:'Flamenco',cursive;
+	font-size: 20px;
+}
+
+.btn-full:hover{
+	background-color:#fff;
+}
+
+.btn-nav{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #bf55ec;
+}
+
+.btn-nav:hover{
+	background-color: #bf55ec;
+}
+
+
+</style>
+<title>cafe</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img src="cafe 2.jpeg" class="logo">
+				<ul class="main-nav">
+					
+					<li><a href="contact.html">CONTACT TO ORDER</a></li>
+					<li><a href="https://www.healthline.com/nutrition/top-13-evidence-based-health-benefits-of-coffee">CHECK MORE</a></li>
+					<li><a href="insta login.html">SIGN UP</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="main-content-header">
+		
+		<h1>WELCOME TO <span>COFFEE CAFE</span>.<br>
+			HOUSE OF CAFE LOVER .</h1>		
+
+		<button type="button" class="btn btn-full" onclick="alert('Your order is recived')">Click to order</button>
+		
+		<a href="https://www.healthline.com/nutrition/top-13-evidence-based-health-benefits-of-coffee" class="btn btn-nav">show me more</a>
+		</div>
+	
+	</header>
+
+</body>
+</html>
